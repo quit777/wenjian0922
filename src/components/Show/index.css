@@ -1,0 +1,65 @@
+.renxiang {
+    position: absolute;
+    left: 2px;
+    bottom: 20px;
+  }
+  .huomiao {
+    position: absolute;
+    left: 195px;
+    bottom: 20px;
+  }
+  .boxdiv {
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul {
+    margin-left: 15px;
+  }
+  li {
+    width: 280px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin: 20px 20px 0 0;
+  }
+  .img1 {
+    margin-top: -11px;
+    margin-right: 10px;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  
+  .fengmian {
+    width: 280px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .nametext {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 25px;
+    color: rgb(172, 172, 172);
+  }
+  
+  .renqitext {
+    font-size: 13px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(172, 172, 172);
+  }
+  .mincheng {
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

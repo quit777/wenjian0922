@@ -1,0 +1,18 @@
+.GoTop{
+    /* display: none; */
+    position: fixed;
+    left: 90%;
+    bottom: 160px;
+    width: 49px;
+    height: 44px;
+    background-position: -265px -47px;
+    z-index: 11;
+    background: url('../images/sprite.png') no-repeat -265px -47px;
+
+
+   
+}
+.GoTop:hover{
+    background-position: -325px -47px;
+    cursor: pointer;
+}
